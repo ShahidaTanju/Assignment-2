@@ -7,11 +7,21 @@
     font-style: normal;
 }
 
-header {
-    background: linear-gradient(#111111, #777777);
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+
+body {
+    background: linear-gradient(#111111, #111111, #777777, #111111, #111111);
+
+}
+
+/* header {
+    background: linear-gradient(#111111, #111111, #777777, #111111);
     width: 1340px;
     height: 670px;
-}
+} */
 
 /* shared styles */
 
@@ -33,7 +43,7 @@ header {
     align-items: center;
     /* width: 500px;
     height: 76px; */
-    padding-right: 350px;
+    padding-right: 300px;
     padding-left: 150px;
 
 }
@@ -78,18 +88,90 @@ header {
 .section-1-heading {
     font-size: 60px;
     padding-left: 150px;
-    padding-right: 190px;
+    padding-right: 330px;
     color: #FFFFFF;
 }
 
-/* .shape {
-    font-style: miama;
-} */
+.banner-img {
+    width: 320px;
+    height: 500px;
+    padding-right: 150px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 100px;
+    left: 790px;
+}
+
+.top-right {
+    position: absolute;
+    top: 250px;
+    right: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-1 {
+    background: #282828;
+    color: #FFFFFF;
+    border: 1px solid #282828;
+    padding-left: 15px;
+    /* padding-right: 15px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.box-2 {
+    background: #282828;
+    color: #FFFFFF;
+    border: 1px solid #282828;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+.part-1 {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.part-2 {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.part-3 {
+    font-size: 20px;
+    font: bold;
+    padding-right: 30px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.play {
+    margin-top: 5px;
+}
+
+.shape {
+    font-family: Miama;
+    font-size: 85px;
+}
 
 .section-1-description {
     color: #FFFFFF;
     font-size: small;
-    padding-right: 200px;
+    padding-right: 320px;
     padding-left: 150px;
 }
 
@@ -105,6 +187,7 @@ header {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid #E6533C;
     border-radius: 20px;
     font-size: bold;
@@ -123,10 +206,146 @@ header {
 }
 
 /* responsive media query */
+/* navbar responsive for mobile */
 @media screen and (max-width: 576px) {
 
     .navbar,
     .nav-links {
         flex-direction: column;
     }
+}
+
+/* main part*/
+
+/* main {
+    background: #111111;
+    width: 1340px;
+    height: 1100px;
+} */
+
+.section-2 {
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.section-2-heading {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-right: 70px;
+
+}
+
+.section-2-description {
+    color: #FFFFFF;
+    font-size: small;
+    padding-left: 350px;
+    padding-right: 400px;
+}
+
+.section-3 {
+    display: flex;
+    gap: 80px;
+    padding-left: 200px;
+    padding-right: 80px;
+    margin-top: 60px;
+}
+
+.image-round>img {
+    border-radius: 50%;
+}
+
+.img-3-heading {
+    font-size: medium;
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.img-3-description {
+    font-size: x-small;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.break {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.run-extra-part {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-4 {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    flex-direction: row;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+.run-miles {
+    margin: 50px;
+
+}
+
+.section-4-title {
+    font-size: 48px;
+    padding-left: 20px;
+    padding-right: 350px;
+    color: #FFFFFF;
+}
+
+.section-4-description {
+    font-size: small;
+    padding-left: 20px;
+    padding-right: 200px;
+    color: #FFFFFF;
+}
+
+.img-run {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 70px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.img-run img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.section-4-btn {
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #E6533C;
+    border-radius: 20px;
+    font-size: bold;
+    margin-left: 20px;
+}
+
+.section-5 {
+    margin-top: 80px;
+    color: #FFFFFF;
+}
+
+.section-5-heading {
+    font-size: 40px;
+    padding-left: 420px;
+    padding-right: 200px;
+}
+
+.section-5-description {
+    font-size: small;
+    padding-left: 420px;
+    padding-right: 320px;
 }
