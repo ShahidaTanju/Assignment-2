@@ -349,3 +349,90 @@ body {
     padding-left: 420px;
     padding-right: 320px;
 }
+
+.section-6 {
+    background: #282828;
+    margin-top: 70px;
+    display: flex;
+
+}
+
+.section-6-table {
+    padding-left: 130px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.section-6-heading {
+    color: #FFFFFF;
+    font-size: 28px;
+
+}
+
+
+th,
+td {
+    border: 1px solid;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-6-description {
+    font-size: x-small;
+}
+
+.table-heading {
+    text-align: start;
+}
+
+.calculator-section {
+    padding-left: 120px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bmi-calculator-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.calculator-heading {
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.calculator-description {
+    color: #FFFFFF;
+    font-size: x-small;
+    padding-right: 200px;
+}
+
+.form-box {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.join-btn {
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #E6533C;
+    border-radius: 20px;
+    font-size: bold;
+    margin-top: 20px;
+}
