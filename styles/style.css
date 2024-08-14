@@ -433,6 +433,11 @@ td {
     margin-top: 20px;
 }
 
+.section-7 {
+    padding-bottom: 40px;
+
+}
+
 .section-7-team-part {
     text-align: center;
     color: #FFFFFF;
@@ -492,7 +497,37 @@ img {
 /* footer part */
 
 footer {
-    display: flex;
-    background: #777777;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #282828;
     color: #FFFFFF;
+
+}
+
+.footer-heading {
+    color: #E6533C;
+    font-style: italic;
+    padding-left: 80px;
+}
+
+.footer-description {
+    font-size: x-small;
+    padding-left: 80px;
+    padding-right: 150px;
+}
+
+.footer-heading-2 {
+    padding-left: 50px;
+}
+
+.footer-list {
+    font-size: x-small;
+    padding-left: 50px;
+
+}
+
+.horizontal-line {
+    text-align: center;
+    padding-top: 20px;
+
 }
