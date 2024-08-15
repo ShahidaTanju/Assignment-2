@@ -314,6 +314,7 @@ main {
 .img-run img {
     width: 100%;
     border-radius: 20px;
+
 }
 
 .section-4-btn {
@@ -494,6 +495,44 @@ img {
     padding-top: 150px;
 }
 
+.section-8 {
+    background: #111111;
+    background-image: url("https://png.pngtree.com/background/20230618/original/pngtree-contemporary-and-upscale-fitness-center-with-view-of-cityscape-through-carpeted-picture-image_3708845.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 250px;
+    /* padding-top: 30px; */
+
+}
+
+.trial-section {
+    text-align: center;
+    padding-top: 180px;
+    color: #111111;
+}
+
+.section-8-heading {
+    font-size: 35px;
+}
+
+.section-8-description {
+    font-size: small;
+}
+
+.section-8-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.email-part {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
 /* footer part */
 
 footer {
@@ -501,6 +540,8 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     background: #282828;
     color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 50px;
 
 }
 
